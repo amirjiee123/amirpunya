@@ -490,6 +490,7 @@ footer .credit a {
     animation: animateModal 0.5s;
 }
 
+/* MODE HP END =========== */
 /* Modal Animation */
 @keyframes animateModal {
     from {
@@ -516,7 +517,6 @@ footer .credit a {
 .modal-content img {
     height: 20rem;
     margin-right: 2rem;
-    margin-bottom: 2rem;
 }
 
 .modal-content p {
@@ -626,6 +626,35 @@ footer .credit a {
 
     .contact .row form {
         padding-top: 0;
+    }
+    
+    .hero {
+        background-position-x: -630px;
+    }
+
+    .modal-content {
+        flex-wrap: wrap;
+    }
+
+    .modal-container .close-icon {
+        position: absolute;
+        right: 1rem;
+        color: white;
+    }
+
+    .modal-content img {
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-right: 0;
+    }
+
+    .modal-content h3 {
+        font-size: 2.4rem;
+    }
+
+    .modal-content a {
+        position: absolute;
+        bottom: 10px;
     }
 }
 
