@@ -69,3 +69,8 @@ window.onclick = (e) => {
         itemDetailModal.style.display = 'none';
     }
 };
+
+const ctaButton = document.querySelector('.cta');
+ctaButton.addEventListener('click', function () {
+    alert('oh tidak bisa saya belum punya coffe, ini hanya tugas!');
+});
