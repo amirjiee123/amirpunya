@@ -72,5 +72,5 @@ window.onclick = (e) => {
 
 const ctaButton = document.querySelector('.cta');
 ctaButton.addEventListener('click', function () {
-    alert('oh tidak bisa saya belum punya coffe, ini hanya tugas!');
+    alert('OH, TIDAK BISA SAYA TIDAK PUNYA COFFE, INI HANYA TUGAS DARI GURU SAYA!');
 });
