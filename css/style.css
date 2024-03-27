@@ -570,8 +570,6 @@ footer .credit a {
         right: 0;
     }
 
-
-
     .navbar .navbar-nav a {
         color: var(--bg);
         display: block;
@@ -630,7 +628,7 @@ footer .credit a {
     }
     
     .hero {
-        background-position-x: -630px;
+        background-position-x: -95vh;
     }
 
     .modal-content {
